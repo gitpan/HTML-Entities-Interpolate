@@ -1,5 +1,16 @@
 Revision history for Perl extension HTML::Entities::Interpolate.
 
+1.03  Sun Feb 21 12:55:15 2010
+	- Remove text 'All rights reserved' (for Debian licensing).
+	- Remove POD heads 'Required Modules' and 'Changes'.
+
+1.02  Wed Feb 10 14:02:07 2010
+	- MANIFEST.SKIP updated to exclude MYMETA.yml. Add MYMETA.yml.
+
+1.01  Fri Nov 13 13:20:00 2009
+	- Run dos2unix
+	- Rename Changes.txt to CHANGES
+
 1.00  Wed Nov  9 15:30:45 2004
 	- Original version
 	- Source code author: David Nicol

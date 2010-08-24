@@ -6,7 +6,7 @@ use warnings;
 use HTML::Entities;
 use Tie::Function;
 
-our $VERSION = '1.00';
+our $VERSION = '1.03';
 
 # -----------------------------------------------
 
@@ -44,18 +44,10 @@ C<HTML::Entities::Interpolate> is a pure Perl module.
 
 Not needed.
 
-=head1 Required Modules
-
-=over 4
-
-=item HTML::Entities
-
-=item Tie::Function
-
-=back
-
 =head1 Author
 
 David Nicol <davidnicol@gmail.com>.
+
+Maintainer: Ron Savage I<E<lt>ron@savage.net.auE<gt>>.
 
 =cut
