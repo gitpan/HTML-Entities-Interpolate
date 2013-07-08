@@ -21,12 +21,13 @@ WriteMakefile
 	},
 	DISTNAME		=> 'HTML-Entities-Interpolate',
 	NAME			=> 'HTML::Entities::Interpolate',
+	LICENSE   => 'artistic_2',
 	PL_FILES		=> {},
 	PREREQ_PM		=>
 	{
 		HTML::Entities	=> 0,
 		Test::More		=> 0,
-		Test::Pod		=> 0,
+#		Test::Pod		=> 1.45, # Make it optional. See t/pod.t
 		Tie::Function	=> 0,
 	},
 	VERSION_FROM	=> 'lib/HTML/Entities/Interpolate.pm',
